@@ -40,7 +40,6 @@ lxml==5.3.1
 MarkupSafe @ file:///C:/b/abs_a0ma7ge0jc/croot/markupsafe_1738584052792/work
 matplotlib==3.10.0
 matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1733416936468/work
-mkl-service==2.4.0
 mkl_fft @ file:///C:/Users/dev-admin/mkl/mkl_fft_1730823082242/work
 mkl_random @ file:///C:/Users/dev-admin/mkl/mkl_random_1730822522280/work
 narwhals @ file:///C:/b/abs_224ub5a528/croot/narwhals_1742845975749/work
@@ -100,4 +99,4 @@ websockets==10.4
 wheel==0.45.1
 win-inet-pton @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/win_inet_pton_1699472992992/work
 XlsxWriter @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/xlsxwriter_1699548842232/work
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1732827521216/work
+zipp @ 
