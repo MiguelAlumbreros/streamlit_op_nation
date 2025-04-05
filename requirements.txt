@@ -99,4 +99,4 @@ websockets==10.4
 wheel==0.45.1
 win-inet-pton @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/win_inet_pton_1699472992992/work
 XlsxWriter @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/xlsxwriter_1699548842232/work
-zipp @ 
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1732827521216/work
