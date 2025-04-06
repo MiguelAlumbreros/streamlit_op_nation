@@ -199,5 +199,3 @@ st.plotly_chart(fig, use_container_width = True)
 
 st.dataframe(df, hide_index = True)
 
-# st.dataframe(df, hide_index = True)
-
