@@ -14,10 +14,11 @@ with st.sidebar:
 
     if not multi_toggle:
         st.session_state.end_day_selection = st.session_state.start_day_selection
-    start_date = st.date_input("start date", st.session_state.start_day_selection, key = "start_day_selection")
+    start_date = st.date_input("start date", st.session_state.start_day_selection, key = "start_day_selection",
+                            min_value = datetime(2024,6,1), max_value=datetime(2024,6,30))
     end_date = st.date_input("end date", st.session_state.end_day_selection, key = "end_day_selection", 
-                             min_value = datetime(2024,6,1), max_value=datetime(2024,6,30),
-                             disabled = not (st.session_state.multi_day_selection))
+                            min_value = datetime(2024,6,1), max_value=datetime(2024,6,30),
+                            disabled = not (st.session_state.multi_day_selection))
 
 
 #add path to the helper functions from the SQL queries py file
